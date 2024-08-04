@@ -5,7 +5,7 @@ type HeaderProps = {
     removeFromCart: (id:Guitar['id']) => void
     increaseQuantity: (id:Guitar['id']) => void
     decreaseQuantity : (id:Guitar['id']) => void
-    deleteCart : (id:Guitar['id']) => void
+    deleteCart : () => void
     isEmpty : boolean
     cartTotal : number
  }
